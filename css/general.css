@@ -62,12 +62,17 @@ html {
   /* Percentage of users browser font size setting */
 
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 body {
   font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
+
+  /* Only works if there is nothing absolutely posiotioned
+  in relation to body */
+  overflow-x: hidden;
 }
 /**********************/
 /* GENERAL COMPONENTS */
